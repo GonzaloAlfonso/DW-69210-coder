@@ -1,0 +1,25 @@
+/* Ctrl+llave cerrada=comentarios en css */
+
+/* Selector de etiqueta */
+
+/*p{
+    color: blue;
+}*/
+
+/*header{
+    background-color: red;
+}*/
+
+/* Selector de clases */
+
+/*.azul{
+    color: aqua;
+} selecciono lo que quiero con esa propiedad y lo vinculo con class*/
+
+/* Especificidad */
+
+/*footer p{
+     color: blue;
+}*/
+
+/*para guardar en git es en la terminar git add .*/
