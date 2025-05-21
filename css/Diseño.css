@@ -298,6 +298,9 @@ footer{
     body {
       overflow-x: hidden;
     }
+    .imagen-duki{
+      display: none;
+    }
   
     /*header*/
     header {
@@ -339,12 +342,6 @@ footer{
     h2 {
       font-size: 22px;
       margin: 15px 10px 10px 10px;
-    }
-  
-    .imagen-duki {
-      width: 90%;
-      display: block;
-      margin: 15px auto;
     }
   
     iframe {
