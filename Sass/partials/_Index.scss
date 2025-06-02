@@ -1,0 +1,59 @@
+
+@use "./General" as*;
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+.imagen-duki{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 15px auto;
+}
+
+.banner-duki{
+    background-image: url(../Imagenes/BANNER\ DUKI.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -3px 18px rgba(0,0,0,1);
+    padding: 60px 20px;
+
+}
+
+.texto-duki{
+    color: $Rojo;
+    margin-top: 15px;
+}
+
+.index-intro{
+  display: flex;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.index-mapa{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px;
+}
+
+.index-texto1{
+  flex: 1;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.index-texto2{
+  display: flex;
+  font-size: 20px;
+  line-height: 35px;
+}
