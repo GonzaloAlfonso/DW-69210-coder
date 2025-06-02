@@ -1,7 +1,7 @@
-@use "./General" as*;
+@use "../otros/variables" as*;
 
 .header-footer-ADA{
-    background-color: #A5158C;
+    background-color: $ADA;
 }
 
 .canciones-ada {

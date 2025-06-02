@@ -1,7 +1,7 @@
-@use "./General" as*;
+@use "../otros/variables" as*;
 
 .header-footer-SSJ{
-    background-color: #A1E3F9;
+    background-color: $SSJ;
     position: sticky;
     top: 0;
 }

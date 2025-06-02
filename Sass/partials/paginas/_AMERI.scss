@@ -1,7 +1,7 @@
-@use "./General" as*;
+@use "../otros/variables" as*;
 
 .header-footer-AMERI{
-    background-color: #A31D1D;
+    background-color: $AMERI;
 }
 
 .canciones-ameri{

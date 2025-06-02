@@ -1,9 +1,7 @@
-@use "./General" as*;
-
-
+@use "../otros/variables" as*;
 
 .header-footer-DFDM{
-    background-color: #A27B5C;
+    background-color: $DFDM;
 }
 
 .canciones-dfdm{
