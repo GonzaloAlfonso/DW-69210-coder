@@ -1,133 +1,131 @@
+@use 'variables';
 
 @media screen and (max-width: 480px) {
-    body {
-      overflow-x: hidden;
-    }
-    .imagen-duki{
-      display: none;
-    }
-    header {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      height: auto;
-      padding: 10px 20px;
-        img {
+  body {
+    overflow-x: hidden;
+  }
+
+  .imagen-duki {
+    display: none;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 10px 20px;
+
+    img {
       width: 80px;
       margin: 10px 0;
     }
-        p {
+
+    p {
       font-size: 40px;
       margin: 10px 0;
       margin-left: 0;
       text-align: center;
-    } 
     }
-    nav ul {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-      padding: 0;
-    }
-    nav a {
-      font-size: 16px;
-    }
-    h1 {
-      font-size: 26px;
-      margin: 15px 10px 10px 10px;
-    }
-  
-    h2 {
-      font-size: 22px;
-      margin: 15px 10px 10px 10px;
-    }
+  }
 
-    .index-mapa{
-    display: flex;
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 26px;
+    margin: 15px 10px 10px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin: 15px 10px 10px;
+  }
+
+  .index-mapa {
     flex-direction: column;
     align-items: center;
-    }
+  }
 
-    .index-inframe{
-      order: 1;
-      width: 100%;
-      height: 200px;
-    }
+  .index-inframe {
+    order: 1;
+    width: 100%;
+    height: 200px;
+  }
 
-    .index-texto1{
-      order: 2;
-      text-align: center;
-    }
-  
-    iframe {
-      width: 100%;
-      height: 200px;
-    }
-  
-    p {
-      font-size: 16px;
-      padding: 10px;
-    }
-  
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      padding: 10px;
-    }
-  
-    input {
-      width: 100%;
-      padding: 8px;
-    }
-    footer {
-      flex-direction: column;
-      align-items: center;
-      height: auto;
-      padding: 20px 10px;
-      gap: 15px;
-      text-align: center;
-    }
-  
-    .footer-1 {
-      margin-left: 0;
-      font-size: 30px;
-    }
-  
-    .footer-2 {
-      margin-left: 0;
-      font-size: 16px;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .footer-logos {
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-  
-    .footer-logos img {
+  .index-texto1 {
+    order: 2;
+    text-align: center;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 10px;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-1 {
+    margin-left: 0;
+    font-size: 30px;
+  }
+
+  .footer-2 {
+    margin-left: 0;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logos {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    img {
       width: 40px;
       height: 40px;
     }
-     /*diseño ssj*/
-    .canciones-ssj{
-      grid-template-columns: 1fr;
-    }
-    /*diseño dfdm*/
-    .canciones-dfdm{
-      grid-template-columns: 1fr;
-    }
-    /*diseño ada*/
-    .canciones-ada{
-      grid-template-columns: 1fr;
-    }
-    /*diseño ameri*/
-    .canciones-ameri{
-      grid-template-columns: 1fr;
-    }
   }
-  
+
+  .canciones-ssj,
+  .canciones-dfdm,
+  .canciones-ada,
+  .canciones-ameri {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,12 +1,13 @@
-@use "partials/otros/General";
-@use "partials/otros/header-footer";
-
-@use "partials/paginas/Index";
-@use "partials/paginas/SSJ";
-@use "partials/paginas/DFDM";
-@use "partials/paginas/ADA";
-@use "partials/paginas/AMERI";
+@use 'variables';
+@use 'generales';
+@use 'header-footer';
 
 
+@use 'index';
+@use 'ssj';
+@use 'dfdm';
+@use 'ada';
+@use 'ameri';
 
-@use "partials/otros/mediaq";
+
+@use 'media';

@@ -1,43 +1,38 @@
-@use "../otros/variables" as*;
+@use 'variables';
 
-body{
-    display: flex;
-    flex-direction: column;
+.header-footer-index {
+  background-color: variables.$rojo-duki;
 }
 
-main {
-    flex: 1;
-}
-.imagen-duki{
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 15px auto;
+.imagen-duki {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 15px auto;
 }
 
-.banner-duki{
-    background-image: url(../Imagenes/BANNER\ DUKI.png);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: white;
-    text-shadow: -1px -3px 18px rgba(0,0,0,1);
-    padding: 60px 20px;
-
+.banner-duki {
+  background-image: url(../Imagenes/BANNER\ DUKI.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: variables.$blanco;
+  text-shadow: -1px -3px 18px rgba(0,0,0,1);
+  padding: 60px 20px;
 }
 
-.texto-duki{
-    color: $Rojo;
-    margin-top: 15px;
+.texto-duki {
+  color: variables.$rojo-duki;
+  margin-top: 15px;
 }
 
-.index-intro{
+.index-intro {
   display: flex;
   font-size: 20px;
   line-height: 35px;
 }
 
-.index-mapa{
+.index-mapa {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -45,14 +40,14 @@ main {
   margin: 20px;
 }
 
-.index-texto1{
-  flex: 1;
+.index-texto1,
+.index-texto2 {
   font-size: 20px;
   line-height: 35px;
 }
-
-.index-texto2{
+.index-texto1 {
+  flex: 1;
+}
+.index-texto2 {
   display: flex;
-  font-size: 20px;
-  line-height: 35px;
 }
