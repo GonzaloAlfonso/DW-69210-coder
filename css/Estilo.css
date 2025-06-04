@@ -51,6 +51,12 @@ header a {
   text-decoration: none;
   font-size: 18px;
 }
+.nav-index{
+  font-size: 2rem;
+}
+.nav-index:hover{
+  color: black;
+}
 
 nav {
   width: auto;
