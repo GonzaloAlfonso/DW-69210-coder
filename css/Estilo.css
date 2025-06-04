@@ -51,11 +51,15 @@ header a {
   text-decoration: none;
   font-size: 18px;
 }
-.nav-index{
-  font-size: 2rem;
+.nav-index {
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
-.nav-index:hover{
+
+.nav-index:hover {
   color: black;
+  transform: scale(1.2);
 }
 
 nav {
@@ -208,6 +212,16 @@ main {
   margin: 50px 0;
   width: 100%;
 }
+.nav-ssj {
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-ssj:hover {
+  color: #A27B5C;
+  transform: scale(1.2);
+}
 
 .header-footer-DFDM {
   background-color: #A27B5C;
@@ -222,6 +236,17 @@ main {
   margin: 50px 0;
   width: 100%;
 }
+.nav-dfdm {
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-dfdm:hover {
+  color: #A5158C;
+  transform: scale(1.2);
+}
+
 
 .header-footer-ADA {
     background-color: #A5158C;
@@ -236,6 +261,16 @@ main {
   margin: 50px 0;
   width: 100%;
 }
+.nav-ada {
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-ada:hover {
+  color: #A31D1D;
+  transform: scale(1.2);
+}
 
 .header-footer-AMERI {
   background-color: #A31D1D;
@@ -249,6 +284,16 @@ main {
   padding: 0 60px;
   margin: 50px 0;
   width: 100%;
+}
+.nav-ameri {
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-ameri:hover {
+  color: black;
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 480px) {
