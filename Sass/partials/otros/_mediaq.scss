@@ -132,8 +132,6 @@
 }
 
 //estilo para tablet
-@use 'variables';
-
 @media screen and (min-width: 481px) and (max-width: 720px) {
   body {
     overflow-x: hidden;
